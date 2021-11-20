@@ -1,4 +1,4 @@
-package job
+package gimjob
 
 import (
 	"github.com/onichandame/gim"

@@ -8,6 +8,7 @@ import (
 )
 
 var MainModule = gim.Module{
+	Name:      `MainModule`,
 	Imports:   []*gim.Module{&job.JobModule},
 	Providers: []interface{}{newMainService},
 }
